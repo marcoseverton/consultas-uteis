@@ -1,0 +1,16 @@
+-- GIT E GIT HUB
+
+# Atenção caso windows: configuar o sistema para mostrar extensões de arquivos:
+ - Painel de controle-> Opções de pasta -> Modo de exibição
+ - Desmarcar*Ocultar as extensões de tipos de arquivos conhecidos; 
+
+1. pull - atualiza o repositorio local com base no dados do repositorio remoto;
+2. clone - copia as informações do repositorio remoto para o repositorio local;
+3. push - atualiza os dados do repositório remoto com base no repositorio local;
+
+4. CRIAR REPOSITORIO NO GIT HUB, adicionando para criar o arquivo .gitignore tipo java;
+
+5. Certificar que estou identificado no Git do computador (nome e email):
+	git config --list
+	git config --global user.name "Marcos Everton"
+	git config --global user.email "marcos.everton10@gmail.com"
