@@ -14,3 +14,14 @@
 	git config --list
 	git config --global user.name "Marcos Everton"
 	git config --global user.email "marcos.everton10@gmail.com"
+
+
+6. Faça os comandos a seguir:
+	> git init (gera a pasta oculta .git no diretorio do projeto local)
+	> git remote add origin https://github.com/acenelio/meuprojeto.git (Associa seu repositório local ao repositório remoto, com o apelido de "origin")
+	> git pull origin master- ATENÇÃO: este comando só é necessário se você criou o .gitignore pelo Github (Atualiza seu repositório local em relação ao repositório remoto)
+	> git status (verifica arquivos)
+	> git add . (Adiciona todos arquivos ao stage)
+	> git commit -m "Projeto criado" (Salva uma nova versão do projeto)
+	> git push -u origin master--Nota: nas próximas vezes basta fazer: git push (Envia o repositório local para o repositório remoto)
+	> git log --oneline (verificar os arquivos adicionados)
