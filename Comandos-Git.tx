@@ -25,3 +25,20 @@
 	> git commit -m "Projeto criado" (Salva uma nova versão do projeto)
 	> git push -u origin master--Nota: nas próximas vezes basta fazer: git push (Envia o repositório local para o repositório remoto)
 	> git log --oneline (verificar os arquivos adicionados)
+
+
+7. Kit de primeiros socorros do git
+ 	> git clean -df
+	  git checkout -- . ( Desfazer tudo o que fiz desde o último commit)
+	  
+	> git reset --soft HEAD~1 (Preciso remover o último commit, porém mantendo os arquivos do jeito que estão.)
+	> git reset --hard HEAD~1 (Preciso remover o último commit, inclusive as alterações nos arquivos.)
+	> git checkout <código do commit> EXEMPLO: git checkout e8a52f3  (Quero alterar temporariamente os arquivos do projeto e de modo a ficarem no estado do commit informado.
+ATENÇÃO: não podem haver modificações não commitadas no projeto.
+NOTA: para voltar ao último commit faça:
+> git checkout master)
+
+	> git push -f origin HEAD^:master (Preciso apagar o último commit no Github)0
+	> git remote set-url origin https://github.com/acenelio/novoprojeto.git (Quero mudar o meu repositório remoto "origin")
+	> Tecle ESC, depois digite :q! e tecle ENTER (Entrei no VIM por engano. Como sair?)
+	
