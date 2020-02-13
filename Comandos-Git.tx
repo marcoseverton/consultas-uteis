@@ -25,7 +25,10 @@
 	> git commit -m "Projeto criado" (Salva uma nova versão do projeto)
 	> git push -u origin master--Nota: nas próximas vezes basta fazer: git push (Envia o repositório local para o repositório remoto)
 	> git log --oneline (verificar os arquivos adicionados)
-
+	> git branch (mostra as branches criadas)
+	> git branch novabranche (para criar nova branche)
+	> git checkout novabranche (para apontar para a branche que se deseja)
+	> git checkout -novabranche (para criar e já apontar para branche criada)
 
 7. Kit de primeiros socorros do git
  	> git clean -df
