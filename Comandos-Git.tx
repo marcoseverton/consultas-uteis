@@ -28,10 +28,11 @@
 	> git branch (mostra as branches criadas)
 	> git branch novabranche (para criar nova branche)
 	> git checkout novabranche (para apontar para a branche que se deseja)
-	> git checkout -b 
-novabranche (para criar e já apontar para branche criada)
+	> git checkout -b novabranche (para criar e já apontar para branche criada)
 	> git push --set-upstream origin novabranche (atualiza o repositorio remoto com base na branche desejada)
-
+	> git checkout master (para apontar para a branche principal)
+	> git merge novabranche (Deve ser usado quando já estiver na branche master, desta forma o comando fará a branch criada ser imergida para dentro da branche Principal, ou seja, unir o ramo criado ao ramo principal)
+	obs: após o merge, realizar o git add . , posteriormente, o git push origin master.
 7. Kit de primeiros socorros do git
  	> git clean -df
 	  git checkout -- . ( Desfazer tudo o que fiz desde o último commit)
