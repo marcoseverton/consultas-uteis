@@ -28,7 +28,9 @@
 	> git branch (mostra as branches criadas)
 	> git branch novabranche (para criar nova branche)
 	> git checkout novabranche (para apontar para a branche que se deseja)
-	> git checkout -novabranche (para criar e já apontar para branche criada)
+	> git checkout -b 
+novabranche (para criar e já apontar para branche criada)
+	> git push --set-upstream origin novabranche (atualiza o repositorio remoto com base na branche desejada)
 
 7. Kit de primeiros socorros do git
  	> git clean -df
